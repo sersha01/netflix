@@ -1,0 +1,101 @@
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.posterRow::-webkit-scrollbar {
+  display: none;
+}
+
+body, .posterBackground {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.logo {
+    max-width: 150px;
+}
+
+.avathar {
+    max-width: 45px;
+}
+
+.headerUp{
+    position: absolute;
+}
+
+.banner {
+    height: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.gradiant {
+    height: 7.4rem;
+    background-image: linear-gradient(180deg,transparent, rgba(37,37,37,.61), #111), ;
+}
+
+.movieName {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 1rem;
+}
+
+.btns {
+    background: rgba(51,51,51,.5);
+    color: #fff;
+    font-weight: bolder;
+}
+
+.btns:hover {
+    color: #000;
+    font-weight: bolder;
+    background: #e6e6e6;
+}
+
+.discription {
+    color: #fff;
+    font-weight: 500;
+}
+
+.bannerMovie {
+    margin-top: 100px;
+}
+
+.posterBackground {
+    background: #111;
+}
+
+.bigPoster {
+    cursor: pointer;
+    max-width: 250px;
+}
+
+.bigPoster:hover {
+    transform: scale(1.2);
+}
+
+.smallPoster {
+    cursor: pointer;
+    max-width: 150px;
+}
+
+.smallPoster:hover {
+    transform: scale(1.5); 
+}
+
+.posterRow {
+    overflow-x: scroll;
+}
+
+.image {
+    overflow: visible;
+}
+
+.close {
+    position: absolute;
+}
+
+.youtube {
+    position: relative;
+}
